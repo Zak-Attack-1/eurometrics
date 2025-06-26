@@ -1,0 +1,41 @@
+version: 2
+
+sources:
+  - name: eurometrics        # the source name you reference in {{ source() }}
+    schema: public          # your Postgres schema
+    tables:
+      - name: hicp_inflation
+      - name: gdp_eurostat
+      - name: population_data
+
+models:
+  - name: stg_hicp_inflation
+    description: "Cleaned and typed HICP inflation data"
+    columns:
+      - name: date
+        description: "Monthly observation date"
+      - name: region
+        description: "Country/Region code"
+      - name: hicp_index
+        description: "Harmonised Index of Consumer Prices"
+
+  - name: stg_gdp_eurostat
+    description: "Cleaned and typed Eurostat GDP data"
+    columns:
+      - name: year
+      - name: geo
+      - name: gdp_eur_millions
+
+  - name: stg_population
+    description: "Staging model for Eurostat population data"
+    columns:
+      - name: region
+        tests:
+          - not_null
+      - name: year
+        tests:
+          - not_null
+      - name: population
+        tests:
+          - not_null
+

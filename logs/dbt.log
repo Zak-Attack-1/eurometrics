@@ -1,0 +1,175 @@
+[0m03:26:27.557152 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FDA9D89350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FDA9D7DC10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FDA9D7E690>]}
+
+
+============================== 03:26:27.582681 | f6628409-bca6-4509-af77-42725776c6d4 ==============================
+[0m03:26:27.582681 [info ] [MainThread]: Running with dbt=1.9.4
+[0m03:26:27.585705 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\lenovo\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt init eurometrics_dbt', 'send_anonymous_usage_stats': 'True'}
+[0m03:26:27.667681 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object, got 'WindowsPath'.. Dictionary: {'dir': WindowsPath('C:/Users/lenovo/.dbt')}
+[0m03:26:27.670696 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m03:26:27.682447 [debug] [MainThread]: Starter project path: C:\Users\lenovo\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\include\starter_project
+[0m03:26:27.834349 [info ] [MainThread]: 
+Your new dbt project "eurometrics_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m03:26:27.841336 [info ] [MainThread]: Setting up your profile.
+[0m03:27:25.158462 [info ] [MainThread]: Profile eurometrics_dbt written to C:\Users\lenovo\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m03:27:25.162462 [debug] [MainThread]: Command `dbt init` succeeded at 03:27:25.162462 after 57.76 seconds
+[0m03:27:25.164461 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FDA9D2B310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FDA34030D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FDA3402450>]}
+[0m03:27:25.165461 [debug] [MainThread]: Flushing usage events
+[0m03:27:26.015489 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m03:27:41.508700 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FFBFEAFED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FFBFD96290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FFBFEAE850>]}
+
+
+============================== 03:27:41.516720 | 139a607e-2639-4cf0-92ec-dc0e9061e089 ==============================
+[0m03:27:41.516720 [info ] [MainThread]: Running with dbt=1.9.4
+[0m03:27:41.518706 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\lenovo\\.dbt', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt init eurometrics_dbt', 'send_anonymous_usage_stats': 'True'}
+[0m03:27:41.559709 [info ] [MainThread]: A project called eurometrics_dbt already exists here.
+[0m03:27:41.563720 [debug] [MainThread]: Command `dbt init` succeeded at 03:27:41.562704 after 0.22 seconds
+[0m03:27:41.564704 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FFBFEAD490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FFBFE5B490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FFBFCA7790>]}
+[0m03:27:41.566706 [debug] [MainThread]: Flushing usage events
+[0m03:27:42.396939 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m03:28:01.218200 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001753640D650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000175363B6550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000175363B5D50>]}
+
+
+============================== 03:28:01.226198 | 0045e2bb-cfe3-4563-b104-802d17da7a10 ==============================
+[0m03:28:01.226198 [info ] [MainThread]: Running with dbt=1.9.4
+[0m03:28:01.228205 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\lenovo\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init eurometrics_dbt', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m03:28:01.278207 [info ] [MainThread]: A project called eurometrics_dbt already exists here.
+[0m03:28:01.283202 [debug] [MainThread]: Command `dbt init` succeeded at 03:28:01.283202 after 0.25 seconds
+[0m03:28:01.285207 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000175363BB290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001752F9D2410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017536207190>]}
+[0m03:28:01.286204 [debug] [MainThread]: Flushing usage events
+[0m03:28:02.056620 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m03:28:26.103358 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019639CE7310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019639CE7F90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019639D3F790>]}
+
+
+============================== 03:28:26.112399 | 742589bf-f5e8-4a96-b434-a225d3e11d38 ==============================
+[0m03:28:26.112399 [info ] [MainThread]: Running with dbt=1.9.4
+[0m03:28:26.114425 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\lenovo\\.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init eurometrics_dbt_postgres', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m03:28:26.168366 [debug] [MainThread]: Starter project path: C:\Users\lenovo\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\include\starter_project
+[0m03:28:26.212547 [info ] [MainThread]: 
+Your new dbt project "eurometrics_dbt_postgres" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m03:28:26.216537 [info ] [MainThread]: Setting up your profile.
+[0m03:29:55.269603 [info ] [MainThread]: Profile eurometrics_dbt_postgres written to C:\Users\lenovo\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m03:29:55.272598 [debug] [MainThread]: Command `dbt init` succeeded at 03:29:55.272598 after 89.31 seconds
+[0m03:29:55.273597 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019639CEB3D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001963981C0D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019639CE7310>]}
+[0m03:29:55.274598 [debug] [MainThread]: Flushing usage events
+[0m03:29:56.046350 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m03:30:08.466570 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226E08DDE10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226E08DDAD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226E08DD6D0>]}
+
+
+============================== 03:30:08.474566 | 4dbc76b3-dc85-476d-a9fa-70075db4c64d ==============================
+[0m03:30:08.474566 [info ] [MainThread]: Running with dbt=1.9.4
+[0m03:30:08.476580 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\lenovo\\.dbt', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m03:30:08.531614 [info ] [MainThread]: dbt version: 1.9.4
+[0m03:30:08.532612 [info ] [MainThread]: python version: 3.11.0
+[0m03:30:08.534611 [info ] [MainThread]: python path: C:\Users\lenovo\AppData\Local\Programs\Python\Python311\python.exe
+[0m03:30:08.536609 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m03:30:08.654168 [info ] [MainThread]: Using profiles dir at C:\Users\lenovo\.dbt
+[0m03:30:08.656177 [info ] [MainThread]: Using profiles.yml file at C:\Users\lenovo\.dbt\profiles.yml
+[0m03:30:08.659169 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\lenovo\eurometrics\dbt_project.yml
+[0m03:30:08.661173 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m03:30:08.664169 [debug] [MainThread]: Command `dbt debug` failed at 03:30:08.664169 after 0.39 seconds
+[0m03:30:08.665168 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226E08DF810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226E06D6ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226E0896490>]}
+[0m03:30:08.666169 [debug] [MainThread]: Flushing usage events
+[0m03:30:09.548820 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m03:34:21.186508 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027DFFF91DD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027D84F69190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027D84F661D0>]}
+
+
+============================== 03:34:21.194494 | 41e3625b-ccaa-43ae-877f-6f0eba89c874 ==============================
+[0m03:34:21.194494 [info ] [MainThread]: Running with dbt=1.9.4
+[0m03:34:21.196503 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\lenovo\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m03:34:21.237498 [info ] [MainThread]: dbt version: 1.9.4
+[0m03:34:21.239516 [info ] [MainThread]: python version: 3.11.0
+[0m03:34:21.241504 [info ] [MainThread]: python path: C:\Users\lenovo\AppData\Local\Programs\Python\Python311\python.exe
+[0m03:34:21.243499 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m03:34:21.376504 [info ] [MainThread]: Using profiles dir at C:\Users\lenovo\.dbt
+[0m03:34:21.378501 [info ] [MainThread]: Using profiles.yml file at C:\Users\lenovo\.dbt\profiles.yml
+[0m03:34:21.381498 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\lenovo\eurometrics\dbt_project.yml
+[0m03:34:21.386503 [info ] [MainThread]: adapter type: postgres
+[0m03:34:21.388501 [info ] [MainThread]: adapter version: 1.9.0
+[0m03:34:21.391503 [info ] [MainThread]: Configuration:
+[0m03:34:21.394498 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m03:34:21.397508 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m03:34:21.399502 [info ] [MainThread]: Required dependencies:
+[0m03:34:21.402502 [debug] [MainThread]: Executing "git --help"
+[0m03:34:21.481957 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m03:34:21.482955 [debug] [MainThread]: STDERR: "b''"
+[0m03:34:21.483951 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m03:34:21.485952 [info ] [MainThread]: Connection:
+[0m03:34:21.488952 [info ] [MainThread]:   host: localhost
+[0m03:34:21.490952 [info ] [MainThread]:   port: 5432
+[0m03:34:21.491950 [info ] [MainThread]:   user: postgres
+[0m03:34:21.492953 [info ] [MainThread]:   database: eurometrics
+[0m03:34:21.494958 [info ] [MainThread]:   schema: public
+[0m03:34:21.496955 [info ] [MainThread]:   connect_timeout: 10
+[0m03:34:21.497956 [info ] [MainThread]:   role: None
+[0m03:34:21.499955 [info ] [MainThread]:   search_path: None
+[0m03:34:21.500956 [info ] [MainThread]:   keepalives_idle: 0
+[0m03:34:21.501957 [info ] [MainThread]:   sslmode: None
+[0m03:34:21.505955 [info ] [MainThread]:   sslcert: None
+[0m03:34:21.506951 [info ] [MainThread]:   sslkey: None
+[0m03:34:21.508955 [info ] [MainThread]:   sslrootcert: None
+[0m03:34:21.509952 [info ] [MainThread]:   application_name: dbt
+[0m03:34:21.511957 [info ] [MainThread]:   retries: 1
+[0m03:34:21.512959 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m03:34:22.463749 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m03:34:26.658151 [debug] [MainThread]: Using postgres connection "debug"
+[0m03:34:26.659149 [debug] [MainThread]: On debug: select 1 as id
+[0m03:34:26.660150 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m03:34:26.727144 [debug] [MainThread]: SQL status: SELECT 1 in 0.066 seconds
+[0m03:34:26.730139 [debug] [MainThread]: On debug: Close
+[0m03:34:26.732139 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m03:34:26.734143 [info ] [MainThread]: [31m1 check failed:[0m
+[0m03:34:26.737141 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\lenovo\eurometrics\dbt_project.yml> not found
+
+[0m03:34:26.742142 [debug] [MainThread]: Command `dbt debug` failed at 03:34:26.742142 after 5.71 seconds
+[0m03:34:26.744135 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m03:34:26.745135 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027D84F6B350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027D86242A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027DFE814B90>]}
+[0m03:34:26.746140 [debug] [MainThread]: Flushing usage events
+[0m03:34:27.494452 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m05:10:56.508553 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002513478BE50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251347E3A90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251347898D0>]}
+
+
+============================== 05:10:56.517554 | 86e85a96-1d27-4360-9463-36457a132b35 ==============================
+[0m05:10:56.517554 [info ] [MainThread]: Running with dbt=1.9.4
+[0m05:10:56.520556 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\lenovo\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt run --select staging', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m05:10:56.521554 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\lenovo\eurometrics\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m05:10:56.524554 [debug] [MainThread]: Command `dbt run` failed at 05:10:56.524554 after 0.14 seconds
+[0m05:10:56.525549 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002513193DAD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025134781E90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002513478B9D0>]}
+[0m05:10:56.526551 [debug] [MainThread]: Flushing usage events
+[0m05:10:57.074033 [debug] [MainThread]: An error was encountered while trying to flush usage events
